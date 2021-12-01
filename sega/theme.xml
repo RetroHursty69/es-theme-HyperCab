@@ -1,0 +1,56 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video, grid">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	<image name="system-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>false</tile>
+         <path>./_inc/background.png</path>
+         <zIndex>1</zIndex>          
+      </image> 		
+	</view>
+	<view name="system">	
+	<image name="system-art" extra="true">
+         <origin>0 0</origin>
+         <pos>0.2 0.025</pos>
+         <size>0.25 0.95</size>
+         <tile>false</tile>
+         <path>./_inc/art.png</path>
+         <zIndex>4</zIndex>          
+      </image> 	  
+	</view>
+	<view name="detailed, video, grid">	
+	<image name="system-art" extra="true">
+         <origin>0 0</origin>
+         <pos>0.825 0.2</pos>
+         <size>0.09 0.3</size>
+         <tile>false</tile>
+         <path>./_inc/art.png</path>
+         <zIndex>4</zIndex>          
+      </image> 	  
+	</view>	
+	<view name="basic">	
+	<image name="system-art" extra="true">
+         <origin>0 0</origin>
+         <pos>0.75 0.215</pos>
+         <size>0.2 0.71</size>
+         <tile>false</tile>
+         <path>./_inc/art.png</path>
+         <zIndex>4</zIndex>          
+      </image>
+	<image name="system-art2" extra="true">
+         <origin>0 0</origin>
+         <pos>0.05 0.215</pos>
+         <size>0.2 0.71</size>
+         <tile>false</tile>
+         <path>./_inc/art.png</path>
+         <zIndex>4</zIndex>          
+      </image>  	  
+	</view>		
+</theme>
